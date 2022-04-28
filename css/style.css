@@ -20,9 +20,12 @@
 /******************************************
 /* BASE STYLES
 /*******************************************/
-
+/* duration | timing-function | delay | iteration-count
+   direction | fill-mode | play-state | name */
+   /* animation: 3s ease-in 1s 2 reverse both paused slidein; */
 body {
-
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
 }
 
 
@@ -30,7 +33,20 @@ body {
 /* LAYOUT
 /*******************************************/
 header {
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
 
+menu {
+  display: flex;
+}
+
+.mission-statement {
+  font-weight: 400;
+  font-size: 0.75em;
+  width: 175px;
 }
 
 footer {
